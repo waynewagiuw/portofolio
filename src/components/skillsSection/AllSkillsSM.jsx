@@ -3,6 +3,7 @@ import { SiTypescript } from "react-icons/si";
 import { FaHtml5, FaGitAlt, FaDatabase, FaCss3Alt, FaReact } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 
 const skills = [
@@ -19,6 +20,10 @@ const skills = [
       skill: "JavaScript",
       icon: IoLogoJavascript,
     },
+      {
+    skill: "TailwindCSS",
+    icon: RiTailwindCssFill,
+  },
     {
       skill: "TypeScript",
       icon: SiTypescript,
