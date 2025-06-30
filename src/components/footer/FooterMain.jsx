@@ -6,11 +6,15 @@ const FooterMain = () => {
       name: "About Me",
       section: "about",
     },
+
     {
       name: "Skills",
       section: "skills",
     },
-   
+    {
+      name: "Experience",
+      section: "experience",
+    },
     {
       name: "Projects",
       section: "projects",
@@ -19,9 +23,9 @@ const FooterMain = () => {
   return (
     <div className="px-4">
       <div className="w-full h-[1px] bg-lightGrey mt-24"></div>
-      <div className="md:flex justify-between mt-4 max-w-[1200px] mx-auto sm:hidden">
+      <div className="md:flex justify-between mt-4 max-w-[1200px] mx-auto sm:text-center">
         <p className="text-3xl text-lightGrey ">Wayne Gilbert Wagiuw</p>
-        <ul className="flex gap-4 text-lightGrey text-xl">
+        <ul className="flex md:flex-row sm:flex-col md:mt-0 sm:mt-4 gap-4 text-lightGrey text-xl">
           {footerLinks.map((item, index) => {
             return (
               <li key={index}>
@@ -40,8 +44,8 @@ const FooterMain = () => {
           })}
         </ul>
       </div>
-      <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 text-sm text-lightBrown">
-       © Template by Abdelrahman Qassem 
+      <p className="max-w-[1200px] mx-auto md:mt-2 sm:mt-4 mb-12 text-sm text-lightBrown sm:text-center md:text-right">
+        © Template by Abdelrahman Qassem
       </p>
     </div>
   );
