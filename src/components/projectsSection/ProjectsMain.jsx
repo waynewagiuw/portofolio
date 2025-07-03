@@ -10,12 +10,12 @@ const projects = [
     image: "/images/website-img-1.png", 
     link: "https://github.com/waynewagiuw/GreenPoin/tree/main",
   },
-  // {
-  //   name: "Wyn_Art Shop Website",
-  //   align: "left",
-  //   image: "/images/website-img-2.webp",
-  //   link: "https://github.com/waynewagiuw/Wyn_Art_Shop", 
-  // },
+  {
+    name: "ArtShop Website",
+    align: "left",
+    image: "/images/website-img-2.jpeg",
+    link: "https://github.com/waynewagiuw/ArtShop", 
+  },
   // {
   //   name: "Wyn_Art Patreon Website",
   //   align: "right",
