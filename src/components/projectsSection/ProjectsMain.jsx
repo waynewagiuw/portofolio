@@ -14,7 +14,7 @@ const projects = [
     name: "ArtShop Website",
     align: "left",
     image: "/images/website-img-2.jpeg",
-    link: "https://github.com/waynewagiuw/ArtShop", 
+    link: "https://github.com/waynewagiuw/artshopcopy", 
   },
   // {
   //   name: "Wyn_Art Patreon Website",
