@@ -6,7 +6,7 @@ const AboutMeText = () => {
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
       <p>
         I’m a fresh graduate with a Bachelor’s degree in Informatics from Universitas Klabat.
-        Passionate about building digital solutions through web and application development. 
+        Passionate about building digital solutions through web and mobile development. 
         With a strong interest in full-stack development, I enjoy learning both front-end and back-end technologies to create complete and user-focused experiences. 
         I’m highly motivated, adaptable, and always eager to improve my skills through real-world projects and continuous learning. 
         My goal is to grow as a software Engineer and contribute to impactful, innovative products.

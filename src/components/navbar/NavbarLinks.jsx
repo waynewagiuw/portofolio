@@ -5,8 +5,9 @@ const links = [
   { link: "Skills", section: "skills" },
   { link: "Projects", section: "projects" },
   { link: "Experince", section: "experience" },
+  { link: "Achievments", section: "achievments" },
   { link: "Contact", section: "contact" },
-];
+]
 
 const NavbarLinks = () => {
   return (

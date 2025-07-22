@@ -19,6 +19,10 @@ const FooterMain = () => {
       name: "Projects",
       section: "projects",
     },
+    {
+      name: "Achievments",
+      section: "achievments",
+    },
   ];
   return (
     <div className="px-4">
