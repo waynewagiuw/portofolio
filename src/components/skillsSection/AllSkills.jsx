@@ -1,8 +1,8 @@
 import SingleSkill from "./SingleSkill";
-import { FaHtml5, FaGitAlt, FaDatabase,  } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
+import { FaHtml5, FaGitAlt, FaDatabase } from "react-icons/fa";
+import { FaCss3Alt, FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiPrisma, SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -40,6 +40,18 @@ const skills = [
   {
     skill: "Git",
     icon: FaGitAlt,
+  },
+  {
+    skill: "NodeJs",
+    icon: FaNodeJs,
+  },
+  {
+    skill: "Express",
+    icon: SiExpress,
+  },
+  {
+    skill: "Prisma",
+    icon: SiPrisma,
   },
 ];
 

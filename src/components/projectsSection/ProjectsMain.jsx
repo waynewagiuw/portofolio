@@ -16,6 +16,12 @@ const projects = [
     image: "/images/website-img-2.jpeg",
     link: "https://github.com/waynewagiuw/artshopcopy", 
   },
+   {
+    name: "Library API",
+    align: "right",
+    image: "/images/website-img-3.jpeg", 
+    link: "https://github.com/waynewagiuw/library_api",
+  },
   // {
   //   name: "Wyn_Art Patreon Website",
   //   align: "right",
