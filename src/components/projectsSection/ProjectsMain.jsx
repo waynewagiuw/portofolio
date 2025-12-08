@@ -10,18 +10,26 @@ const projects = [
     image: "/images/website-img-1.png", 
     link: "https://github.com/waynewagiuw/GreenPoin/tree/main",
   },
+  
   {
-    name: "ArtShop Website",
+    name: "Full Stack CRUD",
     align: "left",
+    image: "/images/website-img-4.jpeg",
+    link: "https://github.com/waynewagiuw/CRUD", 
+  },
+  {
+    name: "ArtShop Front-End",
+    align: "right",
     image: "/images/website-img-2.jpeg",
     link: "https://github.com/waynewagiuw/artshopcopy", 
   },
    {
-    name: "Library API",
-    align: "right",
+    name: "Library API Back-End",
+    align: "left",
     image: "/images/website-img-3.jpeg", 
     link: "https://github.com/waynewagiuw/library_api",
   },
+  
   // {
   //   name: "Wyn_Art Patreon Website",
   //   align: "right",
