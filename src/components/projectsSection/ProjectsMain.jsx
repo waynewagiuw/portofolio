@@ -5,37 +5,35 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Green Poin Mobile Application",
+    name: "GreenPoin Mobile Dev",
     align: "right",
-    image: "/images/website-img-1.png", 
+    image: "/images/website-img-1.png",
     link: "https://github.com/waynewagiuw/GreenPoin/tree/main",
   },
-  
+  {
+    name: "Company Profile Front-End",
+    align: "left",
+    image: "/images/website-img-5.jpg",
+    link: "https://github.com/waynewagiuw/company_profile",
+  },
   {
     name: "Full Stack CRUD",
-    align: "left",
+    align: "right",
     image: "/images/website-img-4.jpeg",
-    link: "https://github.com/waynewagiuw/CRUD", 
+    link: "https://github.com/waynewagiuw/CRUD",
   },
   {
-    name: "ArtShop Front-End",
-    align: "right",
-    image: "/images/website-img-2.jpeg",
-    link: "https://github.com/waynewagiuw/artshopcopy", 
-  },
-   {
-    name: "Library API Back-End",
+    name: "ArtShop Front End",
     align: "left",
-    image: "/images/website-img-3.jpeg", 
+    image: "/images/website-img-2.jpeg",
+    link: "https://github.com/waynewagiuw/artshopcopy",
+  },
+  {
+    name: "Library API Back End",
+    align: "right",
+    image: "/images/website-img-3.jpeg",
     link: "https://github.com/waynewagiuw/library_api",
   },
-  
-  // {
-  //   name: "Wyn_Art Patreon Website",
-  //   align: "right",
-  //   image: "/images/website-img-1w.jpg",
-  //   link: "https://github.com/waynewagiuw/Wyn_Art_Patreon", 
-  // },
 ];
 
 const ProjectsMain = () => {
