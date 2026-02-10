@@ -3,7 +3,7 @@ import AllSkillsSM from "./AllSkillsSM";
 import SkillsText from "./SkillsText";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-import AllSkillsDua from "./AllSkillsdua";
+import AllSkillsDua from "./AllSkillsDua";
 
 const SkillsMain = () => {
   return (
