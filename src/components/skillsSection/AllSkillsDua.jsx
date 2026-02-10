@@ -10,49 +10,50 @@ import {
   FaNodeJs,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript, SiPrisma, SiExpress, SiMysql } from "react-icons/si";
+import { SiTypescript, SiPrisma, SiExpress, SiMysql, SiElementor } from "react-icons/si";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { BiCctv, BiSolidPrinter } from "react-icons/bi";
 
+
 const skills = [
-  {
-    skill: "JavaScript",
-    icon: IoLogoJavascript,
-  },
-  {
-    skill: "TailwindCSS",
-    icon: RiTailwindCssFill,
-  },
-  {
-    skill: "TypeScript",
-    icon: SiTypescript,
-  },
-  {
-    skill: "ReactJS",
-    icon: FaReact,
-  },
-  {
-    skill: "PostgreSQL",
-    icon: FaDatabase,
-  },
-  {
-    skill: "MySQL",
-    icon: SiMysql,
-  },
   
   {
-    skill: "NodeJs",
-    icon: FaNodeJs,
+    skill: "WordPress",
+    icon: FaWordpress,
   },
   {
-    skill: "Prisma",
-    icon: SiPrisma,
+    skill: "Elementor",
+    icon: SiElementor,
+  },
+  {
+    skill: "cPanel",
+    icon: FaCpanel,
+  },
+  {
+    skill: "Git",
+    icon: FaGitAlt,
+  },
+  {
+    skill: "HTML",
+    icon: FaHtml5,
+  },
+  {
+    skill: "CSS",
+    icon: FaCss3Alt,
+  },
+  {
+    skill: "CCTV",
+    icon: BiCctv,
+  },
+  { 
+    skill: "Printer", 
+    icon: BiSolidPrinter,
   },
 ];
 
-const AllSkills = () => {
+const AllSkillsDua = () => {
   return (
     <div>
       <div className="flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto">
@@ -78,4 +79,4 @@ const AllSkills = () => {
   );
 };
 
-export default AllSkills;
+export default AllSkillsDua;

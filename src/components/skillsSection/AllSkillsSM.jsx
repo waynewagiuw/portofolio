@@ -1,9 +1,10 @@
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript,  SiPrisma, SiExpress } from "react-icons/si";
-import { FaHtml5, FaNodeJs, FaGitAlt, FaDatabase, FaCss3Alt, FaReact} from "react-icons/fa";
+import { SiTypescript, SiPrisma, SiExpress, SiElementor } from "react-icons/si";
+import { FaHtml5, FaNodeJs, FaGitAlt, FaDatabase, FaCss3Alt, FaReact, FaWordpress, FaCpanel } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { BiCctv, BiSolidPrinter } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-import { RiTailwindCssFill } from "react-icons/ri";
 
 const skills = [
   {
@@ -49,6 +50,26 @@ const skills = [
   {
     skill: "Prisma",
     icon: SiPrisma,
+  },
+  {
+    skill: "WordPress",
+    icon: FaWordpress,
+  },
+  {
+    skill: "Elementor",
+    icon: SiElementor,
+  },
+  {
+    skill: "cPanel",
+    icon: FaCpanel,
+  },
+  {
+    skill: "CCTV",
+    icon: BiCctv,
+  },
+  {
+    skill: "Printer",
+    icon: BiSolidPrinter,
   },
 ];
 
